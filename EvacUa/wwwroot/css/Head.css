@@ -1,0 +1,38 @@
+﻿body{
+    margin:0;
+}
+.Head {
+    height: 50px;
+    text-align: center;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+.NameComp {
+    float:left;
+    font-family: Arial;
+    font-size: xx-large;
+    margin-left: 5px;
+}
+#Evac {
+    color: white;
+}
+#Ua {
+    color: white;
+}
+#GoTo {
+    width: 400px;
+    margin-top: 8px;
+    margin-left: 140px;
+    float: right;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 6px 18px;
+    color:white;
+    text-align: center;
+    background-color: #32455e;
+}

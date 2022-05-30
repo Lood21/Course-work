@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/Head.css" />
+    <link rel="stylesheet" href="css/Content.css" />
+</head>
+<body>
+    <div class="Head">
+        <div class="NameComp">
+            <span class="NameComp" id="Evac">Evac</span>
+            <span class="NameComp" id="Ua">Ua</span>
+        </div>
+        <button id="GoTo" onClick='location.href="http://localhost:5278/CreateEvac.html"'>Зарегеструвати відправлення</button>
+    </div>
+    <div class="content">
+        <div id="Vehicles"></div>
+        <div id="ConteinerOfvehicles" style="display: none">
+
+        </div>
+    </div>
+
+    <script src="js/Content.js" asp-append-version="true"></script>
+    
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>
